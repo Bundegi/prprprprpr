@@ -13,6 +13,7 @@ string solution(string s) {
             else if (s[i] == ' ') {
                 i--;
                 continue;
+                //연습 테스트
             }
         }
         else if (s[i] >= 'A' && s[i] <= 'Z') s[i] += 32;
